@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c372d29a-e230-481a-8d22-cddd4daf94c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,40 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BruteForceSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/search/BruteForceSearch.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tictactoe/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="128">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StochasticSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/search/StochasticSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-              <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HillClimbing.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/search/HillClimbing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-              <folding>
-                <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#81#82#0" expanded="true" />
+                <element signature="e#106#107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -80,6 +53,12 @@
         <option value="$PROJECT_DIR$/src/search/BruteForceSearch.java" />
         <option value="$PROJECT_DIR$/src/search/StochasticSearch.java" />
         <option value="$PROJECT_DIR$/src/search/HillClimbing.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/Cell.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/Constants.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/Player.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/Board.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/Game.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/App.java" />
       </list>
     </option>
   </component>
@@ -96,9 +75,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,26 +87,23 @@
             <path>
               <item name="Artificial_Intelligence_in_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Artificial_Intelligence_in_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Artificial_Intelligence_in_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Artificial_Intelligence_in_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Artificial_Intelligence_in_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Artificial_Intelligence_in_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
@@ -144,8 +119,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="HillClimbing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.HillClimbing" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tictactoe.App" />
       <module name="Artificial_Intelligence_in_Java" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
@@ -198,7 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HillClimbing" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -218,38 +193,59 @@
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32929516" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32929516" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/search/BruteForceSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/StochasticSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/HillClimbing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/astarsearch/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -259,33 +255,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search/BruteForceSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search/StochasticSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
+        <state relative-caret-position="285">
           <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search/HillClimbing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="300">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="176" column="10" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
